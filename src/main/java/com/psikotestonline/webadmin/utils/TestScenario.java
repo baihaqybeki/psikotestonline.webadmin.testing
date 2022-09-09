@@ -2,9 +2,12 @@ package com.psikotestonline.webadmin.utils;
 
 public enum TestScenario {
 		
-	T1("User valid Login"),
-	T2("User invalid Login"),
-	T3("user add item");
+	T1("Valid credential"),
+	T2("Valid credential with ignore letter case"),
+	T3("Invalid username"),
+	T4("Invalid password"),
+	T5("Null username"),
+	T6("Null username");
 	
 	private String testName;
 	
