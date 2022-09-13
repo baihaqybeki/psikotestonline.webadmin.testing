@@ -7,7 +7,7 @@ public enum TestScenario {
 	T3("Invalid username"),
 	T4("Invalid password"),
 	T5("Null username"),
-	T6("Null username");
+	T6("Null password");
 	
 	private String testName;
 	

@@ -4,7 +4,7 @@ import static org.testng.Assert.assertTrue;
 
 import org.openqa.selenium.WebDriver;
 
-import com.psikotestinline.webadmin.pages.Login;
+import com.psikotestinline.webadmin.testing.pages.Login;
 import com.psikotestonline.webadmin.utils.Constants;
 
 import io.cucumber.java.en.And;
@@ -38,7 +38,6 @@ public class TestLogin {
 	@Then("^appear popup greeting \"([^\"]*)\"$")
 	public void validateGreeting(String expect) {
 		String actual = login.getMessage();
-		
 		assertTrue(actual.contains(expect));
 	}
 }

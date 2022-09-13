@@ -6,6 +6,7 @@ import org.openqa.selenium.WebDriver;
 
 import com.psikotestonline.webadmin.testing.driver.DriverSingleton;
 import com.psikotestonline.webadmin.utils.Constants;
+import com.psikotestonline.webadmin.utils.TestScenario;
 import com.psikotestonline.webadmin.utils.Utils;
 import com.relevantcodes.extentreports.ExtentReports;
 import com.relevantcodes.extentreports.ExtentTest;
@@ -25,6 +26,9 @@ public class Hook {
 	public void setup() {
 		DriverSingleton.getInstance(Constants.Chrome);
 		driver = DriverSingleton.getDriver();
+		TestScenario[] tests = TestScenario.values();
+		extentTest = reports.startTest(tests[Utils.testCount].getTestName());
+		Utils.testCount++;
 	}
 	
 	@AfterStep

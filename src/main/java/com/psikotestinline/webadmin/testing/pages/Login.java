@@ -1,4 +1,4 @@
-package com.psikotestinline.webadmin.pages;
+package com.psikotestinline.webadmin.testing.pages;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;

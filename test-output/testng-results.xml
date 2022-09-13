@@ -2,26 +2,26 @@
 <testng-results ignored="0" total="6" passed="5" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-09-09T13:38:26 WIB" name="Default suite" finished-at="2022-09-09T13:39:09 WIB" duration-ms="42648">
+  <suite started-at="2022-09-09T17:06:50 WIB" name="Default suite" finished-at="2022-09-09T17:08:35 WIB" duration-ms="105404">
     <groups>
       <group name="cucumber">
         <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.psikotestonline.webadmin.testing.steps.TestRunner@771a660]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test started-at="2022-09-09T13:38:26 WIB" name="Default test" finished-at="2022-09-09T13:39:09 WIB" duration-ms="42648">
+    <test started-at="2022-09-09T17:06:50 WIB" name="Default test" finished-at="2022-09-09T17:08:35 WIB" duration-ms="105404">
       <class name="com.psikotestonline.webadmin.testing.steps.TestRunner">
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.psikotestonline.webadmin.testing.steps.TestRunner@771a660]" started-at="2022-09-09T13:38:26 WIB" name="setUpClass" finished-at="2022-09-09T13:38:27 WIB" duration-ms="316" status="PASS">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.psikotestonline.webadmin.testing.steps.TestRunner@771a660]" started-at="2022-09-09T17:06:50 WIB" name="setUpClass" finished-at="2022-09-09T17:06:50 WIB" duration-ms="304" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@611d0763]]>
+                <![CDATA[org.testng.TestRunner@15369d73]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.psikotestonline.webadmin.testing.steps.TestRunner@771a660]" started-at="2022-09-09T13:38:27 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-09-09T13:38:36 WIB" duration-ms="9289" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.psikotestonline.webadmin.testing.steps.TestRunner@771a660]" started-at="2022-09-09T17:06:50 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-09-09T17:08:03 WIB" duration-ms="72283" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -37,7 +37,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.psikotestonline.webadmin.testing.steps.TestRunner@771a660]" started-at="2022-09-09T13:38:36 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-09-09T13:38:43 WIB" duration-ms="7262" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.psikotestonline.webadmin.testing.steps.TestRunner@771a660]" started-at="2022-09-09T17:08:03 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-09-09T17:08:11 WIB" duration-ms="8458" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -68,7 +68,7 @@ at ✽.appear popup greeting "Username atau password"(file:///Users/muhammadbaih
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.psikotestonline.webadmin.testing.steps.TestRunner@771a660]" started-at="2022-09-09T13:38:43 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-09-09T13:38:49 WIB" duration-ms="5470" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.psikotestonline.webadmin.testing.steps.TestRunner@771a660]" started-at="2022-09-09T17:08:11 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-09-09T17:08:17 WIB" duration-ms="5917" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -84,7 +84,7 @@ at ✽.appear popup greeting "Username atau password"(file:///Users/muhammadbaih
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.psikotestonline.webadmin.testing.steps.TestRunner@771a660]" started-at="2022-09-09T13:38:49 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-09-09T13:38:55 WIB" duration-ms="5873" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.psikotestonline.webadmin.testing.steps.TestRunner@771a660]" started-at="2022-09-09T17:08:17 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-09-09T17:08:23 WIB" duration-ms="5629" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -100,7 +100,7 @@ at ✽.appear popup greeting "Username atau password"(file:///Users/muhammadbaih
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.psikotestonline.webadmin.testing.steps.TestRunner@771a660]" started-at="2022-09-09T13:38:55 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-09-09T13:39:03 WIB" duration-ms="8311" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.psikotestonline.webadmin.testing.steps.TestRunner@771a660]" started-at="2022-09-09T17:08:23 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-09-09T17:08:29 WIB" duration-ms="6271" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -116,7 +116,7 @@ at ✽.appear popup greeting "Username atau password"(file:///Users/muhammadbaih
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.psikotestonline.webadmin.testing.steps.TestRunner@771a660]" started-at="2022-09-09T13:39:03 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-09-09T13:39:09 WIB" duration-ms="5950" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.psikotestonline.webadmin.testing.steps.TestRunner@771a660]" started-at="2022-09-09T17:08:29 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-09-09T17:08:35 WIB" duration-ms="6433" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -132,7 +132,7 @@ at ✽.appear popup greeting "Username atau password"(file:///Users/muhammadbaih
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.psikotestonline.webadmin.testing.steps.TestRunner@771a660]" started-at="2022-09-09T13:39:09 WIB" name="tearDownClass" finished-at="2022-09-09T13:39:09 WIB" duration-ms="82" status="PASS">
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.psikotestonline.webadmin.testing.steps.TestRunner@771a660]" started-at="2022-09-09T17:08:35 WIB" name="tearDownClass" finished-at="2022-09-09T17:08:35 WIB" duration-ms="57" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
