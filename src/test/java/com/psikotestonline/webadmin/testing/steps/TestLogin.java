@@ -4,7 +4,7 @@ import static org.testng.Assert.assertTrue;
 
 import org.openqa.selenium.WebDriver;
 
-import com.psikotestinline.webadmin.testing.pages.Login;
+import com.psikotestonline.webadmin.testing.pages.Login;
 import com.psikotestonline.webadmin.utils.Constants;
 
 import io.cucumber.java.en.And;

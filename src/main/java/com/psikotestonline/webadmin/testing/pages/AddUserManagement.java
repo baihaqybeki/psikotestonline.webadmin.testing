@@ -1,4 +1,4 @@
-package com.psikotestinline.webadmin.testing.pages;
+package com.psikotestonline.webadmin.testing.pages;
 
 
 import java.util.List;
