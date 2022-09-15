@@ -7,7 +7,8 @@ public enum TestScenario {
 	T3("Invalid username"),
 	T4("Invalid password"),
 	T5("Null username"),
-	T6("Null password");
+	T6("Null password"),
+	T7("Edit soal type modul pilihan ganda, soal kosong, opsi jawaban d kosong, kunci jawaban a");
 	
 	private String testName;
 	

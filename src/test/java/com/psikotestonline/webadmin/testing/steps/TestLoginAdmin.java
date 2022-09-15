@@ -20,22 +20,22 @@ public class TestLoginAdmin {
 		driver = Hook.driver;
 	}
 	
-	@When("^Navigate to login page (auth admin)$")
+	@When("^Navigate to login page auth admin$")
 	public void navigate() {
-		driver.get(Constants.url2);
+		driver.get(Constants.url);
 	}
 	
-	@And("^enter \"([^\"]*)\" as username dan \"([^\"]*)\" as pasword (auth admin)$")
+	@And("^enter \"([^\"]*)\" as username dan \"([^\"]*)\" as pasword auth admin$")
 	public void fillForm(String username, String password) {
 		loginAdmin.login(username, password);
 	}
 	
-	@And("^click button signin (auth admin)$")
+	@And("^click button signin auth admin$")
 	public void clickBtn() {
 		loginAdmin.clickBtn();
 	}
 	
-	@Then("^appear popup greeting \"([^\"]*)\" (auth admin)$")
+	@Then("^appear popup greeting \"([^\"]*)\" auth admin$")
 	public void validateGreeting(String expect) {
 		String actual = loginAdmin.getMessage();
 		assertTrue(actual.contains(expect));

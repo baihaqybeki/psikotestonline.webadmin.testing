@@ -2,7 +2,6 @@ package com.psikotestonline.webadmin.testing.pages;
 
 
 import org.openqa.selenium.By;
-import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -29,14 +28,26 @@ public class AddSoalPilganDKosong {
 	@FindBy(xpath = "//span[normalize-space()='Modul']")
 	private WebElement modul;
 	
+	@FindBy(xpath = "//input[@id='tl_dis_agree--52808_text']")
+	private WebElement boxSearch;
+	
+	@FindBy(xpath = "//span[normalize-space()='Search']")
+	private WebElement btnSearch;
+	
 	@FindBy(xpath= "//*[@id=\"--_text\"]")
 	private WebElement addSoalPilgan;
 	
-	@FindBy(xpath="//*[@id=\"--_text\"]")
+	@FindBy(xpath = "/html/body/div[9]/div[1]/div/a[3]/span")
+	private WebElement maximizeToEdit;
+	
+	@FindBy(xpath="/html/body/div[9]/div[2]/div/div[4]/div[6]/table/tbody/tr/td[7]/div/table/tbody/tr[1]/td[1]/div/img")
 	private WebElement editSoalPilgan;
 	
 	@FindBy (xpath="//textarea[@id='tl_template_script_edit--53087_text']")
 	private WebElement txtEditSoalPilgan;
+	
+	@FindBy(xpath = "//*[@id=\"tl_template_script_edit--53087_text\"]")
+	private WebElement kunciJawabanPilgan;
 	
 	@FindBy(xpath = "//*[@id=\"53105_query\"]/span")
 	private WebElement updateSoalPilgan;
@@ -46,6 +57,7 @@ public class AddSoalPilganDKosong {
 	
 	@FindBy (xpath = "/html/body/div[8]/div[3]/div/button/span")
 	private WebElement okUpdateSoalPilgan;
+	
 	
 	public void clickOk() {
 		delay(3);
@@ -62,8 +74,21 @@ public class AddSoalPilganDKosong {
 	public void clickAddSoalPilgan() {
 		addSoalPilgan.click();
 	}
-
+	
+	public void searchSoal(String boxSearch) {
+		this.boxSearch.sendKeys(boxSearch);
+	}
+	public void clickBtnSearch() {
+		btnSearch.click();
+	}
+	
+	public void clickMaximizeToEdit() {
+		delay(2);
+		maximizeToEdit.click();
+	}
+	
 	public void clickEditSoalPilgan() {
+		delay(2);
 		editSoalPilgan.click();
 	}
 	//jawaban a
@@ -75,12 +100,13 @@ public class AddSoalPilganDKosong {
 		updateSoalPilgan.click();
 	}
 	
-	public void clickTxtEditSoalPilgan(String txtEditSoalPilgan) {
-		this.txtEditSoalPilgan.sendKeys(txtEditSoalPilgan);
+	public void clickTxtEditSoalPilgan() {
+		this.txtEditSoalPilgan.clear();
 	}
 	
+	
 	public String getPopUpUpdateSoalPilgan() {
-		return this.popUpUpdateSoalPilgan.getText();
+		return popUpUpdateSoalPilgan.getText();
 	}
 	
 	public void clickOkUpdateSoalPilgan() {

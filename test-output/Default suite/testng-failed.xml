@@ -6,8 +6,8 @@
       <class name="com.psikotestonline.webadmin.testing.steps.TestRunner">
         <methods>
           <include name="setUpClass"/>
+          <include name="runScenario" invocation-numbers="0"/>
           <include name="tearDownClass"/>
-          <include name="runScenario" invocation-numbers="1"/>
         </methods>
       </class> <!-- com.psikotestonline.webadmin.testing.steps.TestRunner -->
     </classes>
