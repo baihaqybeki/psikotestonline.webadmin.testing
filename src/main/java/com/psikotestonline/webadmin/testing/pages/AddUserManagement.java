@@ -4,6 +4,7 @@ package com.psikotestonline.webadmin.testing.pages;
 import java.util.List;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -57,6 +58,9 @@ public class AddUserManagement {
 	@FindBy(id="tl_user_management--51688_table")
 	private WebElement tableUserAdmin;
 	
+	@FindBy(xpath="//*[@id=\"nikita-form-dialog\"]/p")
+	private WebElement negativePopUp;
+	
 	
 	
 //	@FindBy(id="tl_agent_editable-14-51733_text")
@@ -78,6 +82,13 @@ public class AddUserManagement {
 	
 	public void fillForm(String privileges, String supervisor) {
 		fullNameForm.sendKeys("User Baru");
+		choosePrivileges(privileges);
+		chooseSupervisor(supervisor);
+		username.sendKeys("newuser");
+		password.sendKeys("password");
+	}
+	
+	public void fillFormWithoutUsername(String privileges, String supervisor) {
 		choosePrivileges(privileges);
 		chooseSupervisor(supervisor);
 		username.sendKeys("newuser");
@@ -117,8 +128,12 @@ public class AddUserManagement {
 	}
 	
 	public boolean validateUser() {
-//		Select showPage = new Select(driver.findElement(By.xpath("//*[@id=\"tl_user_management--51688_show_text\"]")));
-//		showPage.selectByValue("500");
+		Select showPage = new Select(driver.findElement(By.xpath("//*[@id=\"tl_user_management--51688_show_text\"]")));
+		showPage.selectByValue("500");
+		
+		delay(1);
+		
+		((JavascriptExecutor) driver).executeScript("window.scrollBy(0,150);", "");
 		
 		int temp = 0;
 		
@@ -134,7 +149,7 @@ public class AddUserManagement {
              for (int column=0; column<columns_count; column++){
             	 String celtext = columns_row.get(column).getText();
 //                 System.out.println("Cell Value Of row number "+row+" and column number "+column+" Is "+celtext); 
-                 if (celtext.equalsIgnoreCase("somad")) {
+                 if (celtext.equalsIgnoreCase("firqi")) {
                 	 temp++;
                  }
              }
@@ -143,14 +158,12 @@ public class AddUserManagement {
 		if (temp>0) {
 			return true;
 		}else {return false;}
-		
-		
 
-		
-//		System.out.println(length);
-		
-		
-		
+	}
+	
+	public String getPopUpMessage() {
+		delay(2);
+		return this.negativePopUp.getText();
 	}
 	
 	static void delay(int seconds) {

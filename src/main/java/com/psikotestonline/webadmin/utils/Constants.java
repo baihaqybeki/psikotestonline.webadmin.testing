@@ -6,6 +6,7 @@ public class Constants {
 	public static final String Chrome = "Chrome";
 	public static final String Firefox = "Firefox";
 	public static final String url = "https://sqa.peluangkerjaku.com/psy/";
+	public static final String url2 = "https://sqa.peluangkerjaku.com/psy/";
 
 
 }

@@ -8,7 +8,7 @@ Feature: Login Super Admin
     
    Scenario: Valid credential with ignore letter case
     When Navigate to login page
-    And enter "developer" as username dan "23" as pasword
+    And enter "dEveLoPEr" as username dan "23" as pasword
     And click button signin
     Then appear popup greeting "Username atau password"
     

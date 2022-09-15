@@ -1,5 +1,6 @@
 package com.psikotestonline.webadmin.testing.steps;
 
+import static org.testng.Assert.assertEquals;
 import static org.testng.Assert.assertTrue;
 
 import org.openqa.selenium.WebDriver;
@@ -45,10 +46,21 @@ public class TestAddUser {
 		addUser.clickAddDash();
 	}
 	
+	@And("^fill user data form without full name with \"([^\"]*)\" as privileges and \"([^\"]*)\" as supervisor$")
+	public void fillDataWithoutUsername(String privileges, String supervisor) {
+		addUser.fillFormWithoutUsername(privileges, supervisor);
+	}
+	
 	@And("^fill user data form with \"([^\"]*)\" as privileges and \"([^\"]*)\" as supervisor$")
 	public void fillForm(String privileges,String supervisor) {
 		addUser.fillForm(privileges, supervisor);
 	}
+	
+	@And("^click button save$")
+	public void clickSave() {
+		addUser.clickBtnSave();
+	}
+	
 	
 	@And("^click yes button on confirmation dialog box")
 	public void clickYes() {
@@ -58,6 +70,13 @@ public class TestAddUser {
 	@Then("^user added to table$")
 	public void validate() {
 		assertTrue(addUser.validateUser());
+	}
+	
+	@Then("^user appear popup message \"([^\"]*)\"")
+	public void validatePopUP(String expect) {
+		String actual = addUser.getPopUpMessage();
+//		assertEquals(actual,expect);
+		
 	}
 	
 	
