@@ -6,12 +6,19 @@
       <class name="com.psikotestonline.webadmin.testing.steps.TestRunner">
         <methods>
           <include name="setUpClass"/>
+<<<<<<< HEAD
           <include name="runScenario" invocation-numbers="0"/>
+=======
+          <include name="runScenario" invocation-numbers="5 8 10 12 14 15"/>
+>>>>>>> branch 'nandi' of https://github.com/baihaqybeki/psikotestonline.webadmin.testing.git
           <include name="tearDownClass"/>
+<<<<<<< HEAD
 <<<<<<< HEAD
           <include name="runScenario" invocation-numbers="16 1 7 10"/>
 =======
 >>>>>>> refs/remotes/origin/nandi
+=======
+>>>>>>> branch 'nandi' of https://github.com/baihaqybeki/psikotestonline.webadmin.testing.git
         </methods>
       </class> <!-- com.psikotestonline.webadmin.testing.steps.TestRunner -->
     </classes>

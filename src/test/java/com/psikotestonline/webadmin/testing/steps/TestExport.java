@@ -49,7 +49,7 @@ public class TestExport {
 		report.clickDate1();
 		delay(2);
 		report.clickDateUntil();
-		report.clickDate13();
+		report.clickDate18();
 		extentTest.log(LogStatus.PASS, "choose the date that existing report 331");
 	}
 	
@@ -89,7 +89,14 @@ public class TestExport {
 		delay(2);
 		report.clickDateUntil();
 		report.clickDate30();
-		extentTest.log(LogStatus.PASS, "choose the date that unexisting report 332");
+		delay(2);
+		report.clickDateFrom();
+		delay(2);
+		report.clickDate1();
+		delay(2);
+		report.clickDateUntil();
+		report.clickDate18();
+		extentTest.log(LogStatus.PASS, "choose the date that existing report 331");
 	}
 	
 	@And("click button export 332")

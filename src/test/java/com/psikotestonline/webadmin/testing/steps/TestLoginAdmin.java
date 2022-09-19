@@ -25,7 +25,7 @@ public class TestLoginAdmin {
 		extentTest = Hook.extentTest;
 	}
 	
-	@When("^Navigate to login page auth admin$")
+	@When("^Navigate to login page in auth admin$")
 	public void navigate() {
 		driver.get(Constants.url);
 		extentTest.log(LogStatus.PASS, "Navigate to login page in auth admin");
@@ -43,6 +43,7 @@ public class TestLoginAdmin {
 		extentTest.log(LogStatus.PASS, "click button signin in auth admin");
 	}
 	
+
 	@Then("^appear popup greeting \"([^\"]*)\" in auth admin$")
 	public void validateGreeting(String expect) {
 		String actual = loginAdmin.getMessageAdmin();

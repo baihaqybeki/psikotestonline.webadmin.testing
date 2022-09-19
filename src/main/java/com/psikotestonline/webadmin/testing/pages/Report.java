@@ -33,11 +33,24 @@ public class Report {
 	@FindBy(xpath = "//input[@id='tl_report_setuju--51780_text']")
 	private WebElement dateUntil;
 	
+	@FindBy (xpath ="//*[@id=\"ui-datepicker-div\"]/div/a[1]/span")
+	private WebElement toAgust;
+	
+	@FindBy (xpath ="//*[@id=\"ui-datepicker-div\"]/div/a[1]/span")
+	private WebElement toJuly;
+	
 	@FindBy (xpath ="//*[@id=\"ui-datepicker-div\"]/table/tbody/tr[1]/td[5]/a")
 	private WebElement date1;
 	
-	@FindBy (xpath = "//*[@id=\"ui-datepicker-div\"]/table/tbody/tr[3]/td[3]/a")
-	private WebElement date13;
+	@FindBy (xpath ="//a[text()='1']")
+	private WebElement date1July;
+	
+	@FindBy (xpath="//*[@id=\"ui-datepicker-div\"]/div/div/span[1]")
+	private WebElement july2022;
+	
+	
+	@FindBy (xpath = "//*[@id=\"ui-datepicker-div\"]/table/tbody/tr[4]/td[1]/a")
+	private WebElement date18;
 	
 	@FindBy (xpath = "//*[@id=\"ui-datepicker-div\"]/table/tbody/tr[5]/td[5]/a")
 	private WebElement date29;
@@ -59,6 +72,10 @@ public class Report {
 		report.click();
 	}
 	
+	public void clickJuly() {
+		july2022.click();
+	}
+	
 	public void clickReportReport() {
 		reportReport.click();
 	}
@@ -68,17 +85,27 @@ public class Report {
 	public void clickDateUntil() {
 		dateUntil.click();
 	}
-	
+	public void clickToAgust() {
+		toAgust.click();
+	}
+	public void clickToJuly() {
+		toJuly.click();
+	}
 	public void clickDate1(){
 		date1.click();
 	}
 	
-	public void clickDate13() {
-		date13.click();
+	public void clickDate18() {
+		date18.click();
 	}
 
 	public void clickDate29() {
 		date29.click();
+	}
+	
+	public void clickDate1July() {
+		july2022.click();
+		date1July.click();
 	}
 	
 	public void clickDate30() {

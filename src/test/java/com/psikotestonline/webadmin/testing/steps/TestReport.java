@@ -1,10 +1,10 @@
 package com.psikotestonline.webadmin.testing.steps;
 
-import static org.testng.Assert.assertTrue;
 
 import java.util.List;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
@@ -55,7 +55,7 @@ public class TestReport {
 		report.clickDate1();
 		delay(2);
 		report.clickDateUntil();
-		report.clickDate13();
+		report.clickDate18();
 		extentTest.log(LogStatus.PASS, "click button report above remove activity");
 	}
 	@And("click button view 329")

@@ -1,40 +1,60 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <<<<<<< HEAD
+<<<<<<< HEAD
 <testng-results ignored="0" total="17" passed="13" failed="4" skipped="0">
 =======
 <testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
 >>>>>>> refs/remotes/origin/nandi
+=======
+<testng-results ignored="0" total="17" passed="11" failed="6" skipped="0">
+>>>>>>> branch 'nandi' of https://github.com/baihaqybeki/psikotestonline.webadmin.testing.git
   <reporter-output>
   </reporter-output>
+<<<<<<< HEAD
 <<<<<<< HEAD
   <suite started-at="2022-09-19T10:47:24 WIB" name="Default suite" finished-at="2022-09-19T10:53:11 WIB" duration-ms="346918">
 =======
   <suite started-at="2022-09-14T10:13:43 WIB" name="Default suite" finished-at="2022-09-14T10:14:22 WIB" duration-ms="38573">
 >>>>>>> refs/remotes/origin/nandi
+=======
+  <suite started-at="2022-09-19T11:16:26 WIB" name="Default suite" finished-at="2022-09-19T11:21:51 WIB" duration-ms="325979">
+>>>>>>> branch 'nandi' of https://github.com/baihaqybeki/psikotestonline.webadmin.testing.git
     <groups>
       <group name="cucumber">
         <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.psikotestonline.webadmin.testing.steps.TestRunner@293a5bf6]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
 <<<<<<< HEAD
+<<<<<<< HEAD
     <test started-at="2022-09-19T10:47:24 WIB" name="Default test" finished-at="2022-09-19T10:53:11 WIB" duration-ms="346918">
 =======
     <test started-at="2022-09-14T10:13:43 WIB" name="Default test" finished-at="2022-09-14T10:14:22 WIB" duration-ms="38573">
 >>>>>>> refs/remotes/origin/nandi
+=======
+    <test started-at="2022-09-19T11:16:26 WIB" name="Default test" finished-at="2022-09-19T11:21:51 WIB" duration-ms="325979">
+>>>>>>> branch 'nandi' of https://github.com/baihaqybeki/psikotestonline.webadmin.testing.git
       <class name="com.psikotestonline.webadmin.testing.steps.TestRunner">
+<<<<<<< HEAD
 <<<<<<< HEAD
         <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.psikotestonline.webadmin.testing.steps.TestRunner@771a660]" started-at="2022-09-19T10:47:24 WIB" name="setUpClass" finished-at="2022-09-19T10:47:24 WIB" duration-ms="266" status="PASS">
 =======
         <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.psikotestonline.webadmin.testing.steps.TestRunner@293a5bf6]" started-at="2022-09-14T10:13:43 WIB" name="setUpClass" finished-at="2022-09-14T10:13:44 WIB" duration-ms="676" status="PASS">
 >>>>>>> refs/remotes/origin/nandi
+=======
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.psikotestonline.webadmin.testing.steps.TestRunner@293a5bf6]" started-at="2022-09-19T11:16:26 WIB" name="setUpClass" finished-at="2022-09-19T11:16:26 WIB" duration-ms="669" status="PASS">
+>>>>>>> branch 'nandi' of https://github.com/baihaqybeki/psikotestonline.webadmin.testing.git
           <params>
             <param index="0">
               <value>
+<<<<<<< HEAD
 <<<<<<< HEAD
                 <![CDATA[org.testng.TestRunner@65930e02]]>
 =======
                 <![CDATA[org.testng.TestRunner@d675f9f]]>
 >>>>>>> refs/remotes/origin/nandi
+=======
+                <![CDATA[org.testng.TestRunner@3340ce58]]>
+>>>>>>> branch 'nandi' of https://github.com/baihaqybeki/psikotestonline.webadmin.testing.git
               </value>
             </param>
           </params>
@@ -42,19 +62,31 @@
           </reporter-output>
         </test-method> <!-- setUpClass -->
 <<<<<<< HEAD
+<<<<<<< HEAD
         <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.psikotestonline.webadmin.testing.steps.TestRunner@771a660]" started-at="2022-09-19T10:47:24 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-09-19T10:47:34 WIB" duration-ms="10119" status="PASS">
 =======
         <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.psikotestonline.webadmin.testing.steps.TestRunner@293a5bf6]" started-at="2022-09-14T10:13:44 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-09-14T10:14:22 WIB" duration-ms="37767" status="FAIL">
 >>>>>>> refs/remotes/origin/nandi
+=======
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.psikotestonline.webadmin.testing.steps.TestRunner@293a5bf6]" started-at="2022-09-19T11:16:26 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-09-19T11:16:48 WIB" duration-ms="21383" status="PASS">
+>>>>>>> branch 'nandi' of https://github.com/baihaqybeki/psikotestonline.webadmin.testing.git
           <params>
             <param index="0">
               <value>
+<<<<<<< HEAD
                 <![CDATA["Edit soal type modul pilihan ganda, soal kosong, opsi jawaban d kosong, kunci jawaban a"]]>
+=======
+                <![CDATA["View existing report"]]>
+>>>>>>> branch 'nandi' of https://github.com/baihaqybeki/psikotestonline.webadmin.testing.git
               </value>
             </param>
             <param index="1">
               <value>
+<<<<<<< HEAD
                 <![CDATA["Add Soal Pilihan Ganda"]]>
+=======
+                <![CDATA["Report Psikotest Online"]]>
+>>>>>>> branch 'nandi' of https://github.com/baihaqybeki/psikotestonline.webadmin.testing.git
               </value>
             </param>
           </params>
@@ -62,16 +94,174 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
+<<<<<<< HEAD
         <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.psikotestonline.webadmin.testing.steps.TestRunner@771a660]" started-at="2022-09-19T10:47:34 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-09-19T10:47:40 WIB" duration-ms="6079" status="FAIL">
+=======
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.psikotestonline.webadmin.testing.steps.TestRunner@293a5bf6]" started-at="2022-09-19T11:16:48 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-09-19T11:17:07 WIB" duration-ms="19736" status="PASS">
+>>>>>>> branch 'nandi' of https://github.com/baihaqybeki/psikotestonline.webadmin.testing.git
           <params>
             <param index="0">
               <value>
-                <![CDATA["Valid credential with ignore letter case"]]>
+                <![CDATA["View unexisting report"]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA["Login Super Admin"]]>
+                <![CDATA["Report Psikotest Online"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.psikotestonline.webadmin.testing.steps.TestRunner@293a5bf6]" started-at="2022-09-19T11:17:07 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-09-19T11:17:27 WIB" duration-ms="19787" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Export existing report"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Report Psikotest Online"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.psikotestonline.webadmin.testing.steps.TestRunner@293a5bf6]" started-at="2022-09-19T11:17:27 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-09-19T11:17:46 WIB" duration-ms="18572" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Export unexisting report"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Report Psikotest Online"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.psikotestonline.webadmin.testing.steps.TestRunner@293a5bf6]" started-at="2022-09-19T11:17:46 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-09-19T11:18:04 WIB" duration-ms="18414" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Search existing report by complete nik"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Search Remove Activity"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.psikotestonline.webadmin.testing.steps.TestRunner@293a5bf6]" started-at="2022-09-19T11:18:04 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-09-19T11:18:24 WIB" duration-ms="19862" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Search existing report by uncomplete nik"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Search Remove Activity"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.InvalidSelectorException">
+            <message>
+              <![CDATA[invalid selector: Unable to locate an element with the xpath expression //*[@id=\"tl_remove_activity--53429_table\"] because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//*[@id=\"tl_remove_activity--53429_table\"]' is not a valid XPath expression.
+  (Session info: chrome=105.0.5195.127)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-0I8AHN0', ip: '192.168.8.102', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\Nandi\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60349}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 4180def0e7ac227fa2fdea210156a1d4
+*** Element info: {Using=xpath, value=//*[@id=\"tl_remove_activity--53429_table\"]}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression //*[@id=\"tl_remove_activity--53429_table\"] because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//*[@id=\"tl_remove_activity--53429_table\"]' is not a valid XPath expression.
+  (Session info: chrome=105.0.5195.127)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-0I8AHN0', ip: '192.168.8.102', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\Nandi\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60349}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 4180def0e7ac227fa2fdea210156a1d4
+*** Element info: {Using=xpath, value=//*[@id=\"tl_remove_activity--53429_table\"]}
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:432)
+at org.openqa.selenium.By$ByXPath.findElements(By.java:348)
+at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:311)
+at com.psikotestonline.webadmin.testing.steps.TestSearchRemoveActivity.data_not_displayed_344(TestSearchRemoveActivity.java:114)
+at ✽.data not displayed 344(file:///C:/Users/Nandi/git/psikotestonline.webadmin.testing/src/test/resources/features/2.SearchRemoveActivity.feature:18)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.InvalidSelectorException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.psikotestonline.webadmin.testing.steps.TestRunner@293a5bf6]" started-at="2022-09-19T11:18:24 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-09-19T11:18:43 WIB" duration-ms="19383" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Search existing report by wrong nik"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Search Remove Activity"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.psikotestonline.webadmin.testing.steps.TestRunner@293a5bf6]" started-at="2022-09-19T11:18:43 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-09-19T11:19:02 WIB" duration-ms="18810" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Search existing report by complete name fill with Uppercase"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Search Remove Activity"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.psikotestonline.webadmin.testing.steps.TestRunner@293a5bf6]" started-at="2022-09-19T11:19:02 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-09-19T11:19:21 WIB" duration-ms="18848" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Search existing report by uncomplete name fill with Uppercase"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Search Remove Activity"]]>
               </value>
             </param>
           </params>
@@ -80,6 +270,7 @@
           <exception class="org.openqa.selenium.NoSuchElementException">
 >>>>>>> refs/remotes/origin/nandi
             <message>
+<<<<<<< HEAD
               <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[10]/div[1]/div/a[2]"}
   (Session info: chrome=105.0.5195.125)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
@@ -89,12 +280,20 @@ Driver info: org.openqa.selenium.chrome.ChromeDriver
 Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.125, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\Nandi\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:49898}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
 Session ID: 35596e3b9575a31c50fcbb3c8cb29911
 *** Element info: {Using=xpath, value=/html/body/div[10]/div[1]/div/a[2]}]]>
+=======
+              <![CDATA[expected [no entries] but found [ Showing 1 to 1 of 1 entries]]]>
+>>>>>>> branch 'nandi' of https://github.com/baihaqybeki/psikotestonline.webadmin.testing.git
             </message>
             <full-stacktrace>
 <<<<<<< HEAD
+<<<<<<< HEAD
               <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+=======
+              <![CDATA[java.lang.AssertionError: expected [no entries] but found [ Showing 1 to 1 of 1 entries]
+>>>>>>> branch 'nandi' of https://github.com/baihaqybeki/psikotestonline.webadmin.testing.git
 at org.testng.Assert.fail(Assert.java:110)
 at org.testng.Assert.failNotEquals(Assert.java:1413)
+<<<<<<< HEAD
 at org.testng.Assert.assertTrue(Assert.java:56)
 at org.testng.Assert.assertTrue(Assert.java:66)
 at com.psikotestonline.webadmin.testing.steps.TestLogin.validateGreeting(TestLogin.java:50)
@@ -129,6 +328,14 @@ at com.psikotestonline.webadmin.testing.pages.AddSoalPilganDKosong.clickMaximize
 at com.psikotestonline.webadmin.testing.steps.TestAddSoalDKosong.select_soal_to_be_edited_with_click_button_green(TestAddSoalDKosong.java:70)
 at ✽.select soal to be edited with click button green(file:///C:/Users/Nandi/git/psikotestonline.webadmin.testing/src/test/resources/features/AddSoalPilganDKosong.feature:9)
 >>>>>>> refs/remotes/origin/nandi
+=======
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at org.testng.Assert.assertEquals(Assert.java:655)
+at org.testng.Assert.assertEquals(Assert.java:665)
+at com.psikotestonline.webadmin.testing.steps.TestSearchRemoveActivity.data_not_displayed_347(TestSearchRemoveActivity.java:282)
+at ✽.data not displayed 347(file:///C:/Users/Nandi/git/psikotestonline.webadmin.testing/src/test/resources/features/2.SearchRemoveActivity.feature:42)
+>>>>>>> branch 'nandi' of https://github.com/baihaqybeki/psikotestonline.webadmin.testing.git
 ]]>
             </full-stacktrace>
           </exception> <!-- org.openqa.selenium.NoSuchElementException -->
@@ -136,70 +343,261 @@ at ✽.select soal to be edited with click button green(file:///C:/Users/Nandi/g
           </reporter-output>
         </test-method> <!-- runScenario -->
 <<<<<<< HEAD
+<<<<<<< HEAD
         <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.psikotestonline.webadmin.testing.steps.TestRunner@771a660]" started-at="2022-09-19T10:47:40 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-09-19T10:47:46 WIB" duration-ms="5380" status="PASS">
+=======
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.psikotestonline.webadmin.testing.steps.TestRunner@293a5bf6]" started-at="2022-09-19T11:19:21 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-09-19T11:19:40 WIB" duration-ms="19343" status="PASS">
+>>>>>>> branch 'nandi' of https://github.com/baihaqybeki/psikotestonline.webadmin.testing.git
           <params>
             <param index="0">
               <value>
-                <![CDATA["Invalid username"]]>
+                <![CDATA["Search existing report by complete name fill with Sentence case"]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA["Login Super Admin"]]>
+                <![CDATA["Search Remove Activity"]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
+<<<<<<< HEAD
         <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.psikotestonline.webadmin.testing.steps.TestRunner@771a660]" started-at="2022-09-19T10:47:46 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-09-19T10:47:51 WIB" duration-ms="4769" status="PASS">
+=======
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.psikotestonline.webadmin.testing.steps.TestRunner@293a5bf6]" started-at="2022-09-19T11:19:40 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-09-19T11:20:00 WIB" duration-ms="19673" status="FAIL">
+>>>>>>> branch 'nandi' of https://github.com/baihaqybeki/psikotestonline.webadmin.testing.git
           <params>
             <param index="0">
               <value>
-                <![CDATA["Invalid password"]]>
+                <![CDATA["Search existing report by uncomplete name fill with Sentence case"]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA["Login Super Admin"]]>
+                <![CDATA["Search Remove Activity"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [no entries] but found [ Showing 1 to 5 of 5 entries]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [no entries] but found [ Showing 1 to 5 of 5 entries]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1413)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at org.testng.Assert.assertEquals(Assert.java:655)
+at org.testng.Assert.assertEquals(Assert.java:665)
+at com.psikotestonline.webadmin.testing.steps.TestSearchRemoveActivity.data_not_displayed_349(TestSearchRemoveActivity.java:374)
+at ✽.data not displayed 349(file:///C:/Users/Nandi/git/psikotestonline.webadmin.testing/src/test/resources/features/2.SearchRemoveActivity.feature:58)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.psikotestonline.webadmin.testing.steps.TestRunner@293a5bf6]" started-at="2022-09-19T11:20:00 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-09-19T11:20:19 WIB" duration-ms="18836" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Search existing report by complete name fill with lowercase"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Search Remove Activity"]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
+<<<<<<< HEAD
         <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.psikotestonline.webadmin.testing.steps.TestRunner@771a660]" started-at="2022-09-19T10:47:51 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-09-19T10:47:55 WIB" duration-ms="4771" status="PASS">
+=======
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.psikotestonline.webadmin.testing.steps.TestRunner@293a5bf6]" started-at="2022-09-19T11:20:19 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-09-19T11:20:38 WIB" duration-ms="19358" status="FAIL">
+>>>>>>> branch 'nandi' of https://github.com/baihaqybeki/psikotestonline.webadmin.testing.git
           <params>
             <param index="0">
               <value>
-                <![CDATA["Null username"]]>
+                <![CDATA["Search existing report by uncomplete name fill with lowercase"]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA["Login Super Admin"]]>
+                <![CDATA["Search Remove Activity"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [no entries] but found [ Showing 1 to 5 of 5 entries]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [no entries] but found [ Showing 1 to 5 of 5 entries]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1413)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at org.testng.Assert.assertEquals(Assert.java:655)
+at org.testng.Assert.assertEquals(Assert.java:665)
+at com.psikotestonline.webadmin.testing.steps.TestSearchRemoveActivity.data_not_displayed_351(TestSearchRemoveActivity.java:468)
+at ✽.data not displayed 351(file:///C:/Users/Nandi/git/psikotestonline.webadmin.testing/src/test/resources/features/2.SearchRemoveActivity.feature:74)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.psikotestonline.webadmin.testing.steps.TestRunner@293a5bf6]" started-at="2022-09-19T11:20:38 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-09-19T11:20:58 WIB" duration-ms="19596" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Search existing report by complete name fill with capitalize each world"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Search Remove Activity"]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
+<<<<<<< HEAD
         <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.psikotestonline.webadmin.testing.steps.TestRunner@771a660]" started-at="2022-09-19T10:47:55 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-09-19T10:48:01 WIB" duration-ms="5150" status="PASS">
+=======
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.psikotestonline.webadmin.testing.steps.TestRunner@293a5bf6]" started-at="2022-09-19T11:20:58 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-09-19T11:21:17 WIB" duration-ms="19321" status="FAIL">
+>>>>>>> branch 'nandi' of https://github.com/baihaqybeki/psikotestonline.webadmin.testing.git
           <params>
             <param index="0">
               <value>
-                <![CDATA["Null password"]]>
+                <![CDATA["Search existing report by uncomplete name fill with capitalize each world"]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA["Login Super Admin"]]>
+                <![CDATA["Search Remove Activity"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [no entries] but found [ Showing 1 to 5 of 5 entries]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [no entries] but found [ Showing 1 to 5 of 5 entries]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1413)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at org.testng.Assert.assertEquals(Assert.java:655)
+at org.testng.Assert.assertEquals(Assert.java:665)
+at com.psikotestonline.webadmin.testing.steps.TestSearchRemoveActivity.data_not_displayed_353(TestSearchRemoveActivity.java:562)
+at ✽.data not displayed 353(file:///C:/Users/Nandi/git/psikotestonline.webadmin.testing/src/test/resources/features/2.SearchRemoveActivity.feature:90)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.psikotestonline.webadmin.testing.steps.TestRunner@293a5bf6]" started-at="2022-09-19T11:21:17 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-09-19T11:21:33 WIB" duration-ms="16298" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Search existing report by complete name fill with Toggle case"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Search Remove Activity"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="io.cucumber.testng.UndefinedStepException">
+            <message>
+              <![CDATA[The step 'click button search' is undefined.
+You can implement this step using the snippet(s) below:
+
+@When("click button search")
+public void click_button_search() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[io.cucumber.testng.UndefinedStepException: The step 'click button search' is undefined.
+You can implement this step using the snippet(s) below:
+
+@When("click button search")
+public void click_button_search() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+at io.cucumber.core.runtime.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:69)
+at io.cucumber.testng.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:23)
+at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:133)
+at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:129)
+at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:129)
+at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
+at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:806)
+at org.testng.TestRunner.run(TestRunner.java:601)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- io.cucumber.testng.UndefinedStepException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.psikotestonline.webadmin.testing.steps.TestRunner@293a5bf6]" started-at="2022-09-19T11:21:33 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-09-19T11:21:51 WIB" duration-ms="17875" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Delete existing report"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Delete Report Psikotest"]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
+<<<<<<< HEAD
         <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.psikotestonline.webadmin.testing.steps.TestRunner@771a660]" started-at="2022-09-19T10:48:01 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-09-19T10:48:06 WIB" duration-ms="5168" status="PASS">
           <params>
             <param index="0">
@@ -456,6 +854,9 @@ at ✽.click button profile for logout admin(file:///Users/muhammadbaihaqy/eclip
 =======
         <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.psikotestonline.webadmin.testing.steps.TestRunner@293a5bf6]" started-at="2022-09-14T10:14:22 WIB" name="tearDownClass" finished-at="2022-09-14T10:14:22 WIB" duration-ms="78" status="PASS">
 >>>>>>> refs/remotes/origin/nandi
+=======
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.psikotestonline.webadmin.testing.steps.TestRunner@293a5bf6]" started-at="2022-09-19T11:21:51 WIB" name="tearDownClass" finished-at="2022-09-19T11:21:51 WIB" duration-ms="122" status="PASS">
+>>>>>>> branch 'nandi' of https://github.com/baihaqybeki/psikotestonline.webadmin.testing.git
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
