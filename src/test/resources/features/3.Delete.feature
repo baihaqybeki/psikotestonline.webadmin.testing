@@ -1,7 +1,7 @@
 
 Feature: Delete Report Psikotest
 
-  Scenario: Delete existing report 374
+  Scenario: Delete existing report
 	When navigate dashboard page 374
 	And click button report 374
 	And click remove activity 374

@@ -44,12 +44,13 @@ public class TestExport {
 	}
 	@And("choose the date that existing report 331")
 	public void choose_the_date_that_existing_report_331() {
+		delay(2);
 		report.clickDateFrom();
 		delay(2);
 		report.clickDate1();
 		delay(2);
 		report.clickDateUntil();
-		report.clickDate13();
+		report.clickDate18();
 		extentTest.log(LogStatus.PASS, "choose the date that existing report 331");
 	}
 	
@@ -89,6 +90,7 @@ public class TestExport {
 		delay(2);
 		report.clickDateUntil();
 		report.clickDate30();
+		report.clickView();
 		extentTest.log(LogStatus.PASS, "choose the date that unexisting report 332");
 	}
 	

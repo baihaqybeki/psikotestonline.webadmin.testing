@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Default test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>11/6/0</td>
 </tr><tr>
-<td>Started on:</td><td>Wed Sep 14 10:13:43 WIB 2022</td>
+<td>Started on:</td><td>Mon Sep 19 11:16:26 WIB 2022</td>
 </tr>
-<tr><td>Total time:</td><td>38 seconds (38573 ms)</td>
+<tr><td>Total time:</td><td>325 seconds (325979 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,66 +76,312 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.psikotestonline.webadmin.testing.steps.TestRunner.runScenario()'><b>runScenario</b><br>Test class: com.psikotestonline.webadmin.testing.steps.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Edit soal type modul pilihan ganda, soal kosong, opsi jawaban d kosong, kunci jawaban a", "Add Soal Pilihan Ganda"</td>
-<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;/html/body/div[10]/div[1]/div/a[2]&quot;}
-  (Session info: chrome=105.0.5195.125)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;DESKTOP-0I8AHN0&apos;, ip: &apos;192.168.8.102&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;18.0.2.1&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.125, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\Nandi\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:49898}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 35596e3b9575a31c50fcbb3c8cb29911
-*** Element info: {Using=xpath, value=/html/body/div[10]/div[1]/div/a[2]}
-	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy25.click(Unknown Source)
-	at com.psikotestonline.webadmin.testing.pages.AddSoalPilganDKosong.clickMaximizeToEdit(AddSoalPilganDKosong.java:83)
-	at com.psikotestonline.webadmin.testing.steps.TestAddSoalDKosong.select_soal_to_be_edited_with_click_button_green(TestAddSoalDKosong.java:70)
-	at ✽.select soal to be edited with click button green(file:///C:/Users/Nandi/git/psikotestonline.webadmin.testing/src/test/resources/features/AddSoalPilganDKosong.feature:9)
-</pre></div><a href='#' onClick='toggleBox("stack-trace98459285", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace98459285'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;/html/body/div[10]/div[1]/div/a[2]&quot;}
-  (Session info: chrome=105.0.5195.125)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;DESKTOP-0I8AHN0&apos;, ip: &apos;192.168.8.102&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;18.0.2.1&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.125, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\Nandi\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:49898}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 35596e3b9575a31c50fcbb3c8cb29911
-*** Element info: {Using=xpath, value=/html/body/div[10]/div[1]/div/a[2]}
-	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy25.click(Unknown Source)
-	at com.psikotestonline.webadmin.testing.pages.AddSoalPilganDKosong.clickMaximizeToEdit(AddSoalPilganDKosong.java:83)
-	at com.psikotestonline.webadmin.testing.steps.TestAddSoalDKosong.select_soal_to_be_edited_with_click_button_green(TestAddSoalDKosong.java:70)
-	at ✽.select soal to be edited with click button green(file:///C:/Users/Nandi/git/psikotestonline.webadmin.testing/src/test/resources/features/AddSoalPilganDKosong.feature:9)
+<td title='com.psikotestonline.webadmin.testing.steps.TestRunner.runScenario()'><b>runScenario</b><br>Test class: com.psikotestonline.webadmin.testing.steps.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Search existing report by uncomplete name fill with Sentence case", "Search Remove Activity"</td>
+<td><div><pre>java.lang.AssertionError: expected [no entries] but found [ Showing 1 to 5 of 5 entries]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:655)
+	at org.testng.Assert.assertEquals(Assert.java:665)
+	at com.psikotestonline.webadmin.testing.steps.TestSearchRemoveActivity.data_not_displayed_349(TestSearchRemoveActivity.java:374)
+	at ✽.data not displayed 349(file:///C:/Users/Nandi/git/psikotestonline.webadmin.testing/src/test/resources/features/2.SearchRemoveActivity.feature:58)
+</pre></div><a href='#' onClick='toggleBox("stack-trace451768075", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace451768075'><pre>java.lang.AssertionError: expected [no entries] but found [ Showing 1 to 5 of 5 entries]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:655)
+	at org.testng.Assert.assertEquals(Assert.java:665)
+	at com.psikotestonline.webadmin.testing.steps.TestSearchRemoveActivity.data_not_displayed_349(TestSearchRemoveActivity.java:374)
+	at ✽.data not displayed 349(file:///C:/Users/Nandi/git/psikotestonline.webadmin.testing/src/test/resources/features/2.SearchRemoveActivity.feature:58)
 </pre></div></td>
-<td>37</td>
+<td>19</td>
+<td>com.psikotestonline.webadmin.testing.steps.TestRunner@293a5bf6</td></tr>
+<tr>
+<td title='com.psikotestonline.webadmin.testing.steps.TestRunner.runScenario()'><b>runScenario</b><br>Test class: com.psikotestonline.webadmin.testing.steps.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Search existing report by uncomplete name fill with lowercase", "Search Remove Activity"</td>
+<td><div><pre>java.lang.AssertionError: expected [no entries] but found [ Showing 1 to 5 of 5 entries]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:655)
+	at org.testng.Assert.assertEquals(Assert.java:665)
+	at com.psikotestonline.webadmin.testing.steps.TestSearchRemoveActivity.data_not_displayed_351(TestSearchRemoveActivity.java:468)
+	at ✽.data not displayed 351(file:///C:/Users/Nandi/git/psikotestonline.webadmin.testing/src/test/resources/features/2.SearchRemoveActivity.feature:74)
+</pre></div><a href='#' onClick='toggleBox("stack-trace230456842", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace230456842'><pre>java.lang.AssertionError: expected [no entries] but found [ Showing 1 to 5 of 5 entries]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:655)
+	at org.testng.Assert.assertEquals(Assert.java:665)
+	at com.psikotestonline.webadmin.testing.steps.TestSearchRemoveActivity.data_not_displayed_351(TestSearchRemoveActivity.java:468)
+	at ✽.data not displayed 351(file:///C:/Users/Nandi/git/psikotestonline.webadmin.testing/src/test/resources/features/2.SearchRemoveActivity.feature:74)
+</pre></div></td>
+<td>19</td>
+<td>com.psikotestonline.webadmin.testing.steps.TestRunner@293a5bf6</td></tr>
+<tr>
+<td title='com.psikotestonline.webadmin.testing.steps.TestRunner.runScenario()'><b>runScenario</b><br>Test class: com.psikotestonline.webadmin.testing.steps.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Search existing report by uncomplete nik", "Search Remove Activity"</td>
+<td><div><pre>org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression //*[@id=\&quot;tl_remove_activity--53429_table\&quot;] because of the following error:
+SyntaxError: Failed to execute &apos;evaluate&apos; on &apos;Document&apos;: The string &apos;//*[@id=\&quot;tl_remove_activity--53429_table\&quot;]&apos; is not a valid XPath expression.
+  (Session info: chrome=105.0.5195.127)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-0I8AHN0&apos;, ip: &apos;192.168.8.102&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;18.0.2.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\Nandi\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60349}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 4180def0e7ac227fa2fdea210156a1d4
+*** Element info: {Using=xpath, value=//*[@id=\&quot;tl_remove_activity--53429_table\&quot;]}
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:432)
+	at org.openqa.selenium.By$ByXPath.findElements(By.java:348)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:311)
+	at com.psikotestonline.webadmin.testing.steps.TestSearchRemoveActivity.data_not_displayed_344(TestSearchRemoveActivity.java:114)
+	at ✽.data not displayed 344(file:///C:/Users/Nandi/git/psikotestonline.webadmin.testing/src/test/resources/features/2.SearchRemoveActivity.feature:18)
+</pre></div><a href='#' onClick='toggleBox("stack-trace881280045", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace881280045'><pre>org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression //*[@id=\&quot;tl_remove_activity--53429_table\&quot;] because of the following error:
+SyntaxError: Failed to execute &apos;evaluate&apos; on &apos;Document&apos;: The string &apos;//*[@id=\&quot;tl_remove_activity--53429_table\&quot;]&apos; is not a valid XPath expression.
+  (Session info: chrome=105.0.5195.127)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-0I8AHN0&apos;, ip: &apos;192.168.8.102&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;18.0.2.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\Nandi\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60349}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 4180def0e7ac227fa2fdea210156a1d4
+*** Element info: {Using=xpath, value=//*[@id=\&quot;tl_remove_activity--53429_table\&quot;]}
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:432)
+	at org.openqa.selenium.By$ByXPath.findElements(By.java:348)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:311)
+	at com.psikotestonline.webadmin.testing.steps.TestSearchRemoveActivity.data_not_displayed_344(TestSearchRemoveActivity.java:114)
+	at ✽.data not displayed 344(file:///C:/Users/Nandi/git/psikotestonline.webadmin.testing/src/test/resources/features/2.SearchRemoveActivity.feature:18)
+</pre></div></td>
+<td>19</td>
+<td>com.psikotestonline.webadmin.testing.steps.TestRunner@293a5bf6</td></tr>
+<tr>
+<td title='com.psikotestonline.webadmin.testing.steps.TestRunner.runScenario()'><b>runScenario</b><br>Test class: com.psikotestonline.webadmin.testing.steps.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Search existing report by uncomplete name fill with capitalize each world", "Search Remove Activity"</td>
+<td><div><pre>java.lang.AssertionError: expected [no entries] but found [ Showing 1 to 5 of 5 entries]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:655)
+	at org.testng.Assert.assertEquals(Assert.java:665)
+	at com.psikotestonline.webadmin.testing.steps.TestSearchRemoveActivity.data_not_displayed_353(TestSearchRemoveActivity.java:562)
+	at ✽.data not displayed 353(file:///C:/Users/Nandi/git/psikotestonline.webadmin.testing/src/test/resources/features/2.SearchRemoveActivity.feature:90)
+</pre></div><a href='#' onClick='toggleBox("stack-trace666144990", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace666144990'><pre>java.lang.AssertionError: expected [no entries] but found [ Showing 1 to 5 of 5 entries]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:655)
+	at org.testng.Assert.assertEquals(Assert.java:665)
+	at com.psikotestonline.webadmin.testing.steps.TestSearchRemoveActivity.data_not_displayed_353(TestSearchRemoveActivity.java:562)
+	at ✽.data not displayed 353(file:///C:/Users/Nandi/git/psikotestonline.webadmin.testing/src/test/resources/features/2.SearchRemoveActivity.feature:90)
+</pre></div></td>
+<td>19</td>
+<td>com.psikotestonline.webadmin.testing.steps.TestRunner@293a5bf6</td></tr>
+<tr>
+<td title='com.psikotestonline.webadmin.testing.steps.TestRunner.runScenario()'><b>runScenario</b><br>Test class: com.psikotestonline.webadmin.testing.steps.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Search existing report by complete name fill with Toggle case", "Search Remove Activity"</td>
+<td><div><pre>io.cucumber.testng.UndefinedStepException: The step &apos;click button search&apos; is undefined.
+You can implement this step using the snippet(s) below:
+
+@When(&quot;click button search&quot;)
+public void click_button_search() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+	at io.cucumber.core.runtime.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:69)
+	at io.cucumber.testng.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:23)
+	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:133)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:129)
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:129)
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
+	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:806)
+	at org.testng.TestRunner.run(TestRunner.java:601)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1018262491", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1018262491'><pre>io.cucumber.testng.UndefinedStepException: The step &apos;click button search&apos; is undefined.
+You can implement this step using the snippet(s) below:
+
+@When(&quot;click button search&quot;)
+public void click_button_search() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+	at io.cucumber.core.runtime.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:69)
+	at io.cucumber.testng.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:23)
+	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:133)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:129)
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:129)
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
+	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:806)
+	at org.testng.TestRunner.run(TestRunner.java:601)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>16</td>
+<td>com.psikotestonline.webadmin.testing.steps.TestRunner@293a5bf6</td></tr>
+<tr>
+<td title='com.psikotestonline.webadmin.testing.steps.TestRunner.runScenario()'><b>runScenario</b><br>Test class: com.psikotestonline.webadmin.testing.steps.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Search existing report by uncomplete name fill with Uppercase", "Search Remove Activity"</td>
+<td><div><pre>java.lang.AssertionError: expected [no entries] but found [ Showing 1 to 1 of 1 entries]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:655)
+	at org.testng.Assert.assertEquals(Assert.java:665)
+	at com.psikotestonline.webadmin.testing.steps.TestSearchRemoveActivity.data_not_displayed_347(TestSearchRemoveActivity.java:282)
+	at ✽.data not displayed 347(file:///C:/Users/Nandi/git/psikotestonline.webadmin.testing/src/test/resources/features/2.SearchRemoveActivity.feature:42)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1573356572", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1573356572'><pre>java.lang.AssertionError: expected [no entries] but found [ Showing 1 to 1 of 1 entries]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:655)
+	at org.testng.Assert.assertEquals(Assert.java:665)
+	at com.psikotestonline.webadmin.testing.steps.TestSearchRemoveActivity.data_not_displayed_347(TestSearchRemoveActivity.java:282)
+	at ✽.data not displayed 347(file:///C:/Users/Nandi/git/psikotestonline.webadmin.testing/src/test/resources/features/2.SearchRemoveActivity.feature:42)
+</pre></div></td>
+<td>18</td>
+<td>com.psikotestonline.webadmin.testing.steps.TestRunner@293a5bf6</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.psikotestonline.webadmin.testing.steps.TestRunner.runScenario()'><b>runScenario</b><br>Test class: com.psikotestonline.webadmin.testing.steps.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Delete existing report", "Delete Report Psikotest"</td>
+<td></td>
+<td>17</td>
+<td>com.psikotestonline.webadmin.testing.steps.TestRunner@293a5bf6</td></tr>
+<tr>
+<td title='com.psikotestonline.webadmin.testing.steps.TestRunner.runScenario()'><b>runScenario</b><br>Test class: com.psikotestonline.webadmin.testing.steps.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Search existing report by complete nik", "Search Remove Activity"</td>
+<td></td>
+<td>18</td>
+<td>com.psikotestonline.webadmin.testing.steps.TestRunner@293a5bf6</td></tr>
+<tr>
+<td title='com.psikotestonline.webadmin.testing.steps.TestRunner.runScenario()'><b>runScenario</b><br>Test class: com.psikotestonline.webadmin.testing.steps.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Search existing report by complete name fill with Sentence case", "Search Remove Activity"</td>
+<td></td>
+<td>19</td>
+<td>com.psikotestonline.webadmin.testing.steps.TestRunner@293a5bf6</td></tr>
+<tr>
+<td title='com.psikotestonline.webadmin.testing.steps.TestRunner.runScenario()'><b>runScenario</b><br>Test class: com.psikotestonline.webadmin.testing.steps.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "View unexisting report", "Report Psikotest Online"</td>
+<td></td>
+<td>19</td>
+<td>com.psikotestonline.webadmin.testing.steps.TestRunner@293a5bf6</td></tr>
+<tr>
+<td title='com.psikotestonline.webadmin.testing.steps.TestRunner.runScenario()'><b>runScenario</b><br>Test class: com.psikotestonline.webadmin.testing.steps.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "View existing report", "Report Psikotest Online"</td>
+<td></td>
+<td>21</td>
+<td>com.psikotestonline.webadmin.testing.steps.TestRunner@293a5bf6</td></tr>
+<tr>
+<td title='com.psikotestonline.webadmin.testing.steps.TestRunner.runScenario()'><b>runScenario</b><br>Test class: com.psikotestonline.webadmin.testing.steps.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Export unexisting report", "Report Psikotest Online"</td>
+<td></td>
+<td>18</td>
+<td>com.psikotestonline.webadmin.testing.steps.TestRunner@293a5bf6</td></tr>
+<tr>
+<td title='com.psikotestonline.webadmin.testing.steps.TestRunner.runScenario()'><b>runScenario</b><br>Test class: com.psikotestonline.webadmin.testing.steps.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Search existing report by wrong nik", "Search Remove Activity"</td>
+<td></td>
+<td>19</td>
+<td>com.psikotestonline.webadmin.testing.steps.TestRunner@293a5bf6</td></tr>
+<tr>
+<td title='com.psikotestonline.webadmin.testing.steps.TestRunner.runScenario()'><b>runScenario</b><br>Test class: com.psikotestonline.webadmin.testing.steps.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Search existing report by complete name fill with Uppercase", "Search Remove Activity"</td>
+<td></td>
+<td>18</td>
+<td>com.psikotestonline.webadmin.testing.steps.TestRunner@293a5bf6</td></tr>
+<tr>
+<td title='com.psikotestonline.webadmin.testing.steps.TestRunner.runScenario()'><b>runScenario</b><br>Test class: com.psikotestonline.webadmin.testing.steps.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Search existing report by complete name fill with lowercase", "Search Remove Activity"</td>
+<td></td>
+<td>18</td>
+<td>com.psikotestonline.webadmin.testing.steps.TestRunner@293a5bf6</td></tr>
+<tr>
+<td title='com.psikotestonline.webadmin.testing.steps.TestRunner.runScenario()'><b>runScenario</b><br>Test class: com.psikotestonline.webadmin.testing.steps.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Search existing report by complete name fill with capitalize each world", "Search Remove Activity"</td>
+<td></td>
+<td>19</td>
+<td>com.psikotestonline.webadmin.testing.steps.TestRunner@293a5bf6</td></tr>
+<tr>
+<td title='com.psikotestonline.webadmin.testing.steps.TestRunner.runScenario()'><b>runScenario</b><br>Test class: com.psikotestonline.webadmin.testing.steps.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Export existing report", "Report Psikotest Online"</td>
+<td></td>
+<td>19</td>
 <td>com.psikotestonline.webadmin.testing.steps.TestRunner@293a5bf6</td></tr>
 </table><p>
 </body>
