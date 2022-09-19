@@ -20,6 +20,7 @@ public enum TestScenario {
 	T16("Logout sebagai Super Admin"),
 	T17("Logout sebagai Admin");
 	
+	
 	private String testName;
 	
 	TestScenario(String value) {

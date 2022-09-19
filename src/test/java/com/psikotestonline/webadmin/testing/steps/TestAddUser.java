@@ -35,6 +35,7 @@ public class TestAddUser {
 		login.clickOk();
 		extentTest.log(LogStatus.PASS, "navigate dashboard page");
 	}
+
 	
 	@And("^click user management menu$")
 	public void userManage() {

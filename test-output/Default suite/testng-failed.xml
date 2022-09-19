@@ -6,8 +6,12 @@
       <class name="com.psikotestonline.webadmin.testing.steps.TestRunner">
         <methods>
           <include name="setUpClass"/>
+          <include name="runScenario" invocation-numbers="0"/>
           <include name="tearDownClass"/>
+<<<<<<< HEAD
           <include name="runScenario" invocation-numbers="16 1 7 10"/>
+=======
+>>>>>>> refs/remotes/origin/nandi
         </methods>
       </class> <!-- com.psikotestonline.webadmin.testing.steps.TestRunner -->
     </classes>

@@ -25,7 +25,7 @@ public class TestLoginAdmin {
 		extentTest = Hook.extentTest;
 	}
 	
-	@When("^Navigate to login page in auth admin$")
+	@When("^Navigate to login page auth admin$")
 	public void navigate() {
 		driver.get(Constants.url);
 		extentTest.log(LogStatus.PASS, "Navigate to login page in auth admin");

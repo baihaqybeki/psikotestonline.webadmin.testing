@@ -8,4 +8,5 @@ public class Constants {
 	public static final String url = "https://sqa.peluangkerjaku.com/psy/";
 
 
+
 }
