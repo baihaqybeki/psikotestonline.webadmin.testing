@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="6" passed="5" failed="1" skipped="0">
+<testng-results ignored="0" total="17" passed="13" failed="4" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-09-09T17:06:50 WIB" name="Default suite" finished-at="2022-09-09T17:08:35 WIB" duration-ms="105404">
+  <suite started-at="2022-09-19T10:47:24 WIB" name="Default suite" finished-at="2022-09-19T10:53:11 WIB" duration-ms="346918">
     <groups>
       <group name="cucumber">
         <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.psikotestonline.webadmin.testing.steps.TestRunner@771a660]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test started-at="2022-09-09T17:06:50 WIB" name="Default test" finished-at="2022-09-09T17:08:35 WIB" duration-ms="105404">
+    <test started-at="2022-09-19T10:47:24 WIB" name="Default test" finished-at="2022-09-19T10:53:11 WIB" duration-ms="346918">
       <class name="com.psikotestonline.webadmin.testing.steps.TestRunner">
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.psikotestonline.webadmin.testing.steps.TestRunner@771a660]" started-at="2022-09-09T17:06:50 WIB" name="setUpClass" finished-at="2022-09-09T17:06:50 WIB" duration-ms="304" status="PASS">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.psikotestonline.webadmin.testing.steps.TestRunner@771a660]" started-at="2022-09-19T10:47:24 WIB" name="setUpClass" finished-at="2022-09-19T10:47:24 WIB" duration-ms="266" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@15369d73]]>
+                <![CDATA[org.testng.TestRunner@65930e02]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.psikotestonline.webadmin.testing.steps.TestRunner@771a660]" started-at="2022-09-09T17:06:50 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-09-09T17:08:03 WIB" duration-ms="72283" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.psikotestonline.webadmin.testing.steps.TestRunner@771a660]" started-at="2022-09-19T10:47:24 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-09-19T10:47:34 WIB" duration-ms="10119" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -37,7 +37,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.psikotestonline.webadmin.testing.steps.TestRunner@771a660]" started-at="2022-09-09T17:08:03 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-09-09T17:08:11 WIB" duration-ms="8458" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.psikotestonline.webadmin.testing.steps.TestRunner@771a660]" started-at="2022-09-19T10:47:34 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-09-19T10:47:40 WIB" duration-ms="6079" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -60,15 +60,15 @@ at org.testng.Assert.fail(Assert.java:110)
 at org.testng.Assert.failNotEquals(Assert.java:1413)
 at org.testng.Assert.assertTrue(Assert.java:56)
 at org.testng.Assert.assertTrue(Assert.java:66)
-at com.psikotestonline.webadmin.testing.steps.TestLogin.validateGreeting(TestLogin.java:42)
-at ✽.appear popup greeting "Username atau password"(file:///Users/muhammadbaihaqy/eclipse-workspace/com.psikotestonline.webadmin.testing/src/test/resources/features/Login.feature:13)
+at com.psikotestonline.webadmin.testing.steps.TestLogin.validateGreeting(TestLogin.java:50)
+at ✽.appear popup greeting "Username atau password"(file:///Users/muhammadbaihaqy/eclipse-workspace/com.psikotestonline.webadmin.testing/src/test/resources/features/01.Login.feature:13)
 ]]>
             </full-stacktrace>
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.psikotestonline.webadmin.testing.steps.TestRunner@771a660]" started-at="2022-09-09T17:08:11 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-09-09T17:08:17 WIB" duration-ms="5917" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.psikotestonline.webadmin.testing.steps.TestRunner@771a660]" started-at="2022-09-19T10:47:40 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-09-19T10:47:46 WIB" duration-ms="5380" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -84,7 +84,7 @@ at ✽.appear popup greeting "Username atau password"(file:///Users/muhammadbaih
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.psikotestonline.webadmin.testing.steps.TestRunner@771a660]" started-at="2022-09-09T17:08:17 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-09-09T17:08:23 WIB" duration-ms="5629" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.psikotestonline.webadmin.testing.steps.TestRunner@771a660]" started-at="2022-09-19T10:47:46 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-09-19T10:47:51 WIB" duration-ms="4769" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -100,7 +100,7 @@ at ✽.appear popup greeting "Username atau password"(file:///Users/muhammadbaih
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.psikotestonline.webadmin.testing.steps.TestRunner@771a660]" started-at="2022-09-09T17:08:23 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-09-09T17:08:29 WIB" duration-ms="6271" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.psikotestonline.webadmin.testing.steps.TestRunner@771a660]" started-at="2022-09-19T10:47:51 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-09-19T10:47:55 WIB" duration-ms="4771" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -116,7 +116,7 @@ at ✽.appear popup greeting "Username atau password"(file:///Users/muhammadbaih
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.psikotestonline.webadmin.testing.steps.TestRunner@771a660]" started-at="2022-09-09T17:08:29 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-09-09T17:08:35 WIB" duration-ms="6433" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.psikotestonline.webadmin.testing.steps.TestRunner@771a660]" started-at="2022-09-19T10:47:55 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-09-19T10:48:01 WIB" duration-ms="5150" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -132,7 +132,259 @@ at ✽.appear popup greeting "Username atau password"(file:///Users/muhammadbaih
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.psikotestonline.webadmin.testing.steps.TestRunner@771a660]" started-at="2022-09-09T17:08:35 WIB" name="tearDownClass" finished-at="2022-09-09T17:08:35 WIB" duration-ms="57" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.psikotestonline.webadmin.testing.steps.TestRunner@771a660]" started-at="2022-09-19T10:48:01 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-09-19T10:48:06 WIB" duration-ms="5168" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Valid credential in auth admin"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login Admin"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.psikotestonline.webadmin.testing.steps.TestRunner@771a660]" started-at="2022-09-19T10:48:06 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-09-19T10:48:12 WIB" duration-ms="6158" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Valid credential with ignore letter case (auth admin)"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login Admin"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1413)
+at org.testng.Assert.assertTrue(Assert.java:56)
+at org.testng.Assert.assertTrue(Assert.java:66)
+at com.psikotestonline.webadmin.testing.steps.TestLoginAdmin.validateGreeting(TestLoginAdmin.java:49)
+at ✽.appear popup greeting "Username atau password" in auth admin(file:///Users/muhammadbaihaqy/eclipse-workspace/com.psikotestonline.webadmin.testing/src/test/resources/features/02.TestLoginAdmin.feature:13)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.psikotestonline.webadmin.testing.steps.TestRunner@771a660]" started-at="2022-09-19T10:48:12 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-09-19T10:48:17 WIB" duration-ms="5249" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Invalid username (auth admin)"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login Admin"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.psikotestonline.webadmin.testing.steps.TestRunner@771a660]" started-at="2022-09-19T10:48:17 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-09-19T10:48:22 WIB" duration-ms="5099" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Invalid password (auth admin)"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login Admin"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.psikotestonline.webadmin.testing.steps.TestRunner@771a660]" started-at="2022-09-19T10:48:22 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-09-19T10:48:28 WIB" duration-ms="5546" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Null username (auth admin)"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login Admin"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1413)
+at org.testng.Assert.assertTrue(Assert.java:56)
+at org.testng.Assert.assertTrue(Assert.java:66)
+at com.psikotestonline.webadmin.testing.steps.TestLoginAdmin.validateGreeting(TestLoginAdmin.java:49)
+at ✽.appear popup greeting "Username atau password" in auth admin(file:///Users/muhammadbaihaqy/eclipse-workspace/com.psikotestonline.webadmin.testing/src/test/resources/features/02.TestLoginAdmin.feature:31)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.psikotestonline.webadmin.testing.steps.TestRunner@771a660]" started-at="2022-09-19T10:48:28 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-09-19T10:48:33 WIB" duration-ms="5155" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Null password (auth admin)"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login Admin"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.psikotestonline.webadmin.testing.steps.TestRunner@771a660]" started-at="2022-09-19T10:48:33 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-09-19T10:52:12 WIB" duration-ms="218796" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Add user management"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Add user"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.psikotestonline.webadmin.testing.steps.TestRunner@771a660]" started-at="2022-09-19T10:52:12 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-09-19T10:52:26 WIB" duration-ms="14141" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Add new user without fill full name"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Add user"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.psikotestonline.webadmin.testing.steps.TestRunner@771a660]" started-at="2022-09-19T10:52:26 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-09-19T10:52:40 WIB" duration-ms="14115" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Add existing user"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Add user"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.psikotestonline.webadmin.testing.steps.TestRunner@771a660]" started-at="2022-09-19T10:52:40 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-09-19T10:52:51 WIB" duration-ms="11411" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Logout sebagai Super Admin"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Logout Super Admin"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.psikotestonline.webadmin.testing.steps.TestRunner@771a660]" started-at="2022-09-19T10:52:51 WIB" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-09-19T10:53:11 WIB" duration-ms="19387" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Logout sebagai Admin"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Logout Super Admin"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//span[normalize-space()='DEVELOPER']"}
+  (Session info: chrome=105.0.5195.125)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Muhammads-MacBook-Air.local', ip: '2001:448a:2061:598:81f4:e6fd:4d7c:b491%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '12.5', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.125, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: /var/folders/9_/2vjr42hx0_1...}, goog:chromeOptions: {debuggerAddress: localhost:57899}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a408fede102d8995c79fc9133747e7d5
+*** Element info: {Using=xpath, value=//span[normalize-space()='DEVELOPER']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//span[normalize-space()='DEVELOPER']"}
+  (Session info: chrome=105.0.5195.125)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Muhammads-MacBook-Air.local', ip: '2001:448a:2061:598:81f4:e6fd:4d7c:b491%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '12.5', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.125, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: /var/folders/9_/2vjr42hx0_1...}, goog:chromeOptions: {debuggerAddress: localhost:57899}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a408fede102d8995c79fc9133747e7d5
+*** Element info: {Using=xpath, value=//span[normalize-space()='DEVELOPER']}
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy25.click(Unknown Source)
+at com.psikotestonline.webadmin.testing.pages.Logout.logout(Logout.java:29)
+at com.psikotestonline.webadmin.testing.steps.TestLogout.logoutAccountAdmin(TestLogout.java:54)
+at ✽.click button profile for logout admin(file:///Users/muhammadbaihaqy/eclipse-workspace/com.psikotestonline.webadmin.testing/src/test/resources/features/04.Logout.feature:10)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.psikotestonline.webadmin.testing.steps.TestRunner@771a660]" started-at="2022-09-19T10:53:11 WIB" name="tearDownClass" finished-at="2022-09-19T10:53:11 WIB" duration-ms="95" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->

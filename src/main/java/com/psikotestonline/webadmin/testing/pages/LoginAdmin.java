@@ -31,20 +31,20 @@ public class LoginAdmin {
 	@FindBy(xpath="/html/body/div[8]/div[3]/div/button")
 	private WebElement okBtn;
 	
-	public void login(String username, String password) {
+	public void loginAdmin(String username, String password) {
 		this.username.sendKeys(username);
 		this.password.sendKeys(password);
 	}
 	
-	public void clickBtn() {
+	public void clickBtnAdmin() {
 		btnSignin.click();
 	}
 	
-	public String getMessage() {
+	public String getMessageAdmin() {
 		return this.popUP.getText();
 	}
 	
-	public void clickOk() {
+	public void clickOkAdmin() {
 		delay(3);
 		okBtn.click();
 	}

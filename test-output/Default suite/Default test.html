@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Default test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>5/1/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>13/4/0</td>
 </tr><tr>
-<td>Started on:</td><td>Fri Sep 09 17:06:50 WIB 2022</td>
+<td>Started on:</td><td>Mon Sep 19 10:47:24 WIB 2022</td>
 </tr>
-<tr><td>Total time:</td><td>105 seconds (105404 ms)</td>
+<tr><td>Total time:</td><td>346 seconds (346918 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,24 +76,130 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
+<td title='com.psikotestonline.webadmin.testing.steps.TestRunner.runScenario()'><b>runScenario</b><br>Test class: com.psikotestonline.webadmin.testing.steps.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Logout sebagai Admin", "Logout Super Admin"</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//span[normalize-space()=&apos;DEVELOPER&apos;]&quot;}
+  (Session info: chrome=105.0.5195.125)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;Muhammads-MacBook-Air.local&apos;, ip: &apos;2001:448a:2061:598:81f4:e6fd:4d7c:b491%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;12.5&apos;, java.version: &apos;17.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.125, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: /var/folders/9_/2vjr42hx0_1...}, goog:chromeOptions: {debuggerAddress: localhost:57899}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a408fede102d8995c79fc9133747e7d5
+*** Element info: {Using=xpath, value=//span[normalize-space()=&apos;DEVELOPER&apos;]}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy25.click(Unknown Source)
+	at com.psikotestonline.webadmin.testing.pages.Logout.logout(Logout.java:29)
+	at com.psikotestonline.webadmin.testing.steps.TestLogout.logoutAccountAdmin(TestLogout.java:54)
+	at ✽.click button profile for logout admin(file:///Users/muhammadbaihaqy/eclipse-workspace/com.psikotestonline.webadmin.testing/src/test/resources/features/04.Logout.feature:10)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1348064152", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1348064152'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//span[normalize-space()=&apos;DEVELOPER&apos;]&quot;}
+  (Session info: chrome=105.0.5195.125)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;Muhammads-MacBook-Air.local&apos;, ip: &apos;2001:448a:2061:598:81f4:e6fd:4d7c:b491%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;12.5&apos;, java.version: &apos;17.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.125, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: /var/folders/9_/2vjr42hx0_1...}, goog:chromeOptions: {debuggerAddress: localhost:57899}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a408fede102d8995c79fc9133747e7d5
+*** Element info: {Using=xpath, value=//span[normalize-space()=&apos;DEVELOPER&apos;]}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy25.click(Unknown Source)
+	at com.psikotestonline.webadmin.testing.pages.Logout.logout(Logout.java:29)
+	at com.psikotestonline.webadmin.testing.steps.TestLogout.logoutAccountAdmin(TestLogout.java:54)
+	at ✽.click button profile for logout admin(file:///Users/muhammadbaihaqy/eclipse-workspace/com.psikotestonline.webadmin.testing/src/test/resources/features/04.Logout.feature:10)
+</pre></div></td>
+<td>19</td>
+<td>com.psikotestonline.webadmin.testing.steps.TestRunner@771a660</td></tr>
+<tr>
+<td title='com.psikotestonline.webadmin.testing.steps.TestRunner.runScenario()'><b>runScenario</b><br>Test class: com.psikotestonline.webadmin.testing.steps.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Null username (auth admin)", "Login Admin"</td>
+<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertTrue(Assert.java:56)
+	at org.testng.Assert.assertTrue(Assert.java:66)
+	at com.psikotestonline.webadmin.testing.steps.TestLoginAdmin.validateGreeting(TestLoginAdmin.java:49)
+	at ✽.appear popup greeting &quot;Username atau password&quot; in auth admin(file:///Users/muhammadbaihaqy/eclipse-workspace/com.psikotestonline.webadmin.testing/src/test/resources/features/02.TestLoginAdmin.feature:31)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1904600593", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1904600593'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertTrue(Assert.java:56)
+	at org.testng.Assert.assertTrue(Assert.java:66)
+	at com.psikotestonline.webadmin.testing.steps.TestLoginAdmin.validateGreeting(TestLoginAdmin.java:49)
+	at ✽.appear popup greeting &quot;Username atau password&quot; in auth admin(file:///Users/muhammadbaihaqy/eclipse-workspace/com.psikotestonline.webadmin.testing/src/test/resources/features/02.TestLoginAdmin.feature:31)
+</pre></div></td>
+<td>5</td>
+<td>com.psikotestonline.webadmin.testing.steps.TestRunner@771a660</td></tr>
+<tr>
 <td title='com.psikotestonline.webadmin.testing.steps.TestRunner.runScenario()'><b>runScenario</b><br>Test class: com.psikotestonline.webadmin.testing.steps.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Valid credential with ignore letter case", "Login Super Admin"</td>
 <td><div><pre>java.lang.AssertionError: expected [true] but found [false]
 	at org.testng.Assert.fail(Assert.java:110)
 	at org.testng.Assert.failNotEquals(Assert.java:1413)
 	at org.testng.Assert.assertTrue(Assert.java:56)
 	at org.testng.Assert.assertTrue(Assert.java:66)
-	at com.psikotestonline.webadmin.testing.steps.TestLogin.validateGreeting(TestLogin.java:42)
-	at ✽.appear popup greeting &quot;Username atau password&quot;(file:///Users/muhammadbaihaqy/eclipse-workspace/com.psikotestonline.webadmin.testing/src/test/resources/features/Login.feature:13)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1864122136", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1864122136'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at com.psikotestonline.webadmin.testing.steps.TestLogin.validateGreeting(TestLogin.java:50)
+	at ✽.appear popup greeting &quot;Username atau password&quot;(file:///Users/muhammadbaihaqy/eclipse-workspace/com.psikotestonline.webadmin.testing/src/test/resources/features/01.Login.feature:13)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1330143761", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1330143761'><pre>java.lang.AssertionError: expected [true] but found [false]
 	at org.testng.Assert.fail(Assert.java:110)
 	at org.testng.Assert.failNotEquals(Assert.java:1413)
 	at org.testng.Assert.assertTrue(Assert.java:56)
 	at org.testng.Assert.assertTrue(Assert.java:66)
-	at com.psikotestonline.webadmin.testing.steps.TestLogin.validateGreeting(TestLogin.java:42)
-	at ✽.appear popup greeting &quot;Username atau password&quot;(file:///Users/muhammadbaihaqy/eclipse-workspace/com.psikotestonline.webadmin.testing/src/test/resources/features/Login.feature:13)
+	at com.psikotestonline.webadmin.testing.steps.TestLogin.validateGreeting(TestLogin.java:50)
+	at ✽.appear popup greeting &quot;Username atau password&quot;(file:///Users/muhammadbaihaqy/eclipse-workspace/com.psikotestonline.webadmin.testing/src/test/resources/features/01.Login.feature:13)
 </pre></div></td>
-<td>8</td>
+<td>6</td>
+<td>com.psikotestonline.webadmin.testing.steps.TestRunner@771a660</td></tr>
+<tr>
+<td title='com.psikotestonline.webadmin.testing.steps.TestRunner.runScenario()'><b>runScenario</b><br>Test class: com.psikotestonline.webadmin.testing.steps.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Valid credential with ignore letter case (auth admin)", "Login Admin"</td>
+<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertTrue(Assert.java:56)
+	at org.testng.Assert.assertTrue(Assert.java:66)
+	at com.psikotestonline.webadmin.testing.steps.TestLoginAdmin.validateGreeting(TestLoginAdmin.java:49)
+	at ✽.appear popup greeting &quot;Username atau password&quot; in auth admin(file:///Users/muhammadbaihaqy/eclipse-workspace/com.psikotestonline.webadmin.testing/src/test/resources/features/02.TestLoginAdmin.feature:13)
+</pre></div><a href='#' onClick='toggleBox("stack-trace905418397", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace905418397'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertTrue(Assert.java:56)
+	at org.testng.Assert.assertTrue(Assert.java:66)
+	at com.psikotestonline.webadmin.testing.steps.TestLoginAdmin.validateGreeting(TestLoginAdmin.java:49)
+	at ✽.appear popup greeting &quot;Username atau password&quot; in auth admin(file:///Users/muhammadbaihaqy/eclipse-workspace/com.psikotestonline.webadmin.testing/src/test/resources/features/02.TestLoginAdmin.feature:13)
+</pre></div></td>
+<td>6</td>
 <td>com.psikotestonline.webadmin.testing.steps.TestRunner@771a660</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
@@ -105,27 +211,67 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.psikotestonline.webadmin.testing.steps.TestRunner.runScenario()'><b>runScenario</b><br>Test class: com.psikotestonline.webadmin.testing.steps.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Null password", "Login Super Admin"</td>
+<td title='com.psikotestonline.webadmin.testing.steps.TestRunner.runScenario()'><b>runScenario</b><br>Test class: com.psikotestonline.webadmin.testing.steps.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Add existing user", "Add user"</td>
 <td></td>
-<td>6</td>
+<td>14</td>
 <td>com.psikotestonline.webadmin.testing.steps.TestRunner@771a660</td></tr>
 <tr>
-<td title='com.psikotestonline.webadmin.testing.steps.TestRunner.runScenario()'><b>runScenario</b><br>Test class: com.psikotestonline.webadmin.testing.steps.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Null username", "Login Super Admin"</td>
-<td></td>
-<td>6</td>
-<td>com.psikotestonline.webadmin.testing.steps.TestRunner@771a660</td></tr>
-<tr>
-<td title='com.psikotestonline.webadmin.testing.steps.TestRunner.runScenario()'><b>runScenario</b><br>Test class: com.psikotestonline.webadmin.testing.steps.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Valid credential", "Login Super Admin"</td>
-<td></td>
-<td>72</td>
-<td>com.psikotestonline.webadmin.testing.steps.TestRunner@771a660</td></tr>
-<tr>
-<td title='com.psikotestonline.webadmin.testing.steps.TestRunner.runScenario()'><b>runScenario</b><br>Test class: com.psikotestonline.webadmin.testing.steps.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Invalid password", "Login Super Admin"</td>
+<td title='com.psikotestonline.webadmin.testing.steps.TestRunner.runScenario()'><b>runScenario</b><br>Test class: com.psikotestonline.webadmin.testing.steps.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Valid credential in auth admin", "Login Admin"</td>
 <td></td>
 <td>5</td>
 <td>com.psikotestonline.webadmin.testing.steps.TestRunner@771a660</td></tr>
 <tr>
+<td title='com.psikotestonline.webadmin.testing.steps.TestRunner.runScenario()'><b>runScenario</b><br>Test class: com.psikotestonline.webadmin.testing.steps.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Null password", "Login Super Admin"</td>
+<td></td>
+<td>5</td>
+<td>com.psikotestonline.webadmin.testing.steps.TestRunner@771a660</td></tr>
+<tr>
+<td title='com.psikotestonline.webadmin.testing.steps.TestRunner.runScenario()'><b>runScenario</b><br>Test class: com.psikotestonline.webadmin.testing.steps.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Invalid password", "Login Super Admin"</td>
+<td></td>
+<td>4</td>
+<td>com.psikotestonline.webadmin.testing.steps.TestRunner@771a660</td></tr>
+<tr>
+<td title='com.psikotestonline.webadmin.testing.steps.TestRunner.runScenario()'><b>runScenario</b><br>Test class: com.psikotestonline.webadmin.testing.steps.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Valid credential", "Login Super Admin"</td>
+<td></td>
+<td>10</td>
+<td>com.psikotestonline.webadmin.testing.steps.TestRunner@771a660</td></tr>
+<tr>
+<td title='com.psikotestonline.webadmin.testing.steps.TestRunner.runScenario()'><b>runScenario</b><br>Test class: com.psikotestonline.webadmin.testing.steps.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Logout sebagai Super Admin", "Logout Super Admin"</td>
+<td></td>
+<td>11</td>
+<td>com.psikotestonline.webadmin.testing.steps.TestRunner@771a660</td></tr>
+<tr>
+<td title='com.psikotestonline.webadmin.testing.steps.TestRunner.runScenario()'><b>runScenario</b><br>Test class: com.psikotestonline.webadmin.testing.steps.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Invalid password (auth admin)", "Login Admin"</td>
+<td></td>
+<td>5</td>
+<td>com.psikotestonline.webadmin.testing.steps.TestRunner@771a660</td></tr>
+<tr>
+<td title='com.psikotestonline.webadmin.testing.steps.TestRunner.runScenario()'><b>runScenario</b><br>Test class: com.psikotestonline.webadmin.testing.steps.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Add user management", "Add user"</td>
+<td></td>
+<td>218</td>
+<td>com.psikotestonline.webadmin.testing.steps.TestRunner@771a660</td></tr>
+<tr>
 <td title='com.psikotestonline.webadmin.testing.steps.TestRunner.runScenario()'><b>runScenario</b><br>Test class: com.psikotestonline.webadmin.testing.steps.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Invalid username", "Login Super Admin"</td>
+<td></td>
+<td>5</td>
+<td>com.psikotestonline.webadmin.testing.steps.TestRunner@771a660</td></tr>
+<tr>
+<td title='com.psikotestonline.webadmin.testing.steps.TestRunner.runScenario()'><b>runScenario</b><br>Test class: com.psikotestonline.webadmin.testing.steps.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Null username", "Login Super Admin"</td>
+<td></td>
+<td>4</td>
+<td>com.psikotestonline.webadmin.testing.steps.TestRunner@771a660</td></tr>
+<tr>
+<td title='com.psikotestonline.webadmin.testing.steps.TestRunner.runScenario()'><b>runScenario</b><br>Test class: com.psikotestonline.webadmin.testing.steps.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Null password (auth admin)", "Login Admin"</td>
+<td></td>
+<td>5</td>
+<td>com.psikotestonline.webadmin.testing.steps.TestRunner@771a660</td></tr>
+<tr>
+<td title='com.psikotestonline.webadmin.testing.steps.TestRunner.runScenario()'><b>runScenario</b><br>Test class: com.psikotestonline.webadmin.testing.steps.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Add new user without fill full name", "Add user"</td>
+<td></td>
+<td>14</td>
+<td>com.psikotestonline.webadmin.testing.steps.TestRunner@771a660</td></tr>
+<tr>
+<td title='com.psikotestonline.webadmin.testing.steps.TestRunner.runScenario()'><b>runScenario</b><br>Test class: com.psikotestonline.webadmin.testing.steps.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Invalid username (auth admin)", "Login Admin"</td>
 <td></td>
 <td>5</td>
 <td>com.psikotestonline.webadmin.testing.steps.TestRunner@771a660</td></tr>

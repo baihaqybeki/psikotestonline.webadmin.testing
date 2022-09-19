@@ -34,7 +34,7 @@ public class AddUserManagement {
 	@FindBy(id="tl_agent_editable-14-51730_text")
 	private WebElement fullNameForm;
 	
-	@FindBy(xpath="tl_agent_editable-14-51736_text")
+	@FindBy(id="tl_agent_editable-14-51736_text")
 	private WebElement telephone;
 	
 	@FindBy(xpath="//*[@id=\"tl_agent_editable-14-51740_text\"]")
@@ -46,7 +46,7 @@ public class AddUserManagement {
 	@FindBy(xpath="//span[normalize-space()='Save']")
 	private WebElement btnSave;
 	
-	@FindBy(xpath="//span[normalize-space()='Yes']")
+	@FindBy(xpath="/html/body/div[8]/div[3]/div/button[2]")
 	private WebElement btnYes;
 	
 	@FindBy(id="tl_user_management--51690_text")
@@ -84,6 +84,7 @@ public class AddUserManagement {
 		fullNameForm.sendKeys("User Baru");
 		choosePrivileges(privileges);
 		chooseSupervisor(supervisor);
+		telephone.sendKeys("14045");
 		username.sendKeys("newuser");
 		password.sendKeys("password");
 	}
@@ -91,6 +92,7 @@ public class AddUserManagement {
 	public void fillFormWithoutUsername(String privileges, String supervisor) {
 		choosePrivileges(privileges);
 		chooseSupervisor(supervisor);
+		telephone.sendKeys("14045");
 		username.sendKeys("newuser");
 		password.sendKeys("password");
 	}
@@ -149,7 +151,7 @@ public class AddUserManagement {
              for (int column=0; column<columns_count; column++){
             	 String celtext = columns_row.get(column).getText();
 //                 System.out.println("Cell Value Of row number "+row+" and column number "+column+" Is "+celtext); 
-                 if (celtext.equalsIgnoreCase("firqi")) {
+                 if (celtext.equalsIgnoreCase("user baru")) {
                 	 temp++;
                  }
              }
